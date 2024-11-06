@@ -1,0 +1,60 @@
+body { 
+  background: #000000; /* Fundo preto para destacar o tema */
+  color: #FDB913; /* Amarelo dourado para o texto principal */
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+header {
+  border-bottom: solid 1px #00529F; /* Azul Real Madrid */
+  padding: 20px;
+  font-size: 40px;
+  color: #00529F; /* Azul Real Madrid */
+}
+
+.chamada {
+  background: #FFFFFF; /* Fundo branco para destacar a seção chamada */
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: #00529F;
+}
+
+.chamada-texto {
+  margin-right: 5%;
+  color: #FDB913; /* Dourado para o texto em destaque */
+}
+
+.hashtag {
+  color: #00529F; /* Azul Real Madrid */
+}
+
+.lances-vinijr {
+  color: #FDB913; /* Dourado para o texto */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.painel {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.categoria-videos img {
+  opacity: 0.8; /* Redução de opacidade para um efeito suave */
+  height: 150px;
+}
+
+.categoria-videos img:hover {
+  opacity: 1.0;
+  border: 2px solid #00529F; /* Azul Real Madrid */
+}
